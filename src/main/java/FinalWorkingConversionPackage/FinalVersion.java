@@ -116,7 +116,7 @@ public class FinalVersion {
         System.out.println("Vrijeme potrebno za dekrpiciju byte arraya dokumenta: " + ((new Date().getTime() - date.getTime()) / 1000L));
         // Write byte array to file
         try {
-            ByteArrayToFile.writeByteArrayToFile(fileContent2, "C:/Users/jcvetko/Desktop/stuff/tmpImageFolder/imageStorage.zip");
+            ByteArrayToFile.writeByteArrayToFile(fileContent2, "C:/Users/jcvetko/Desktop/stuff/tmpImageFolder/imageStorage2.zip");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
