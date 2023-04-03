@@ -16,7 +16,7 @@ public class VideoMain {
     public static void main(String[] args) {
 
 
-        String pathToFile = "C:/Users/jcvetko/Desktop/stuff/school/6. semestar/Programsko injzinjerstvo/imageStorage/imageStorage.zip";
+        String pathToFile = "C:/Users/jcvetko/Desktop/stuff/school/6. semestar/Programsko injzinjerstvo/imageStorage/Zmaj.png";
         int targetWidth = 2560;
         int targetHeight = 1440;
         int pixelsPerImage = targetHeight * targetWidth;
@@ -152,7 +152,7 @@ public class VideoMain {
         System.out.println("Vrijeme potrebno za dekrpiciju byte arraya dokumenta: " + ((new Date().getTime() - date.getTime()) / 1000L));
         // Write byte array to file
         try {
-            ByteArrayToFile.writeByteArrayToFile(fileContent2, "C:/Users/jcvetko/Desktop/stuff/tmpImageFolder/imageStorage.zip");
+            ByteArrayToFile.writeByteArrayToFile(fileContent2, "C:/Users/jcvetko/Desktop/stuff/tmpImageFolder/Zmaj.png");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
