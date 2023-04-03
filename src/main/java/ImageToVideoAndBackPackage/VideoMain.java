@@ -17,8 +17,8 @@ public class VideoMain {
 
 
         String pathToFile = "C:/Users/jcvetko/Desktop/stuff/school/6. semestar/Programsko injzinjerstvo/imageStorage/imageStorage.zip";
-        int targetWidth = 1920;
-        int targetHeight = 1080;
+        int targetWidth = 3840;
+        int targetHeight = 2160;
         int pixelsPerImage = targetHeight * targetWidth;
         Date date = new Date();
         // Convert a file to byte array
