@@ -33,4 +33,17 @@ public class ImageToBinary {
         }
         return sb.toString();
     }
+
+    public static String getBinaryStringFromByteArray(byte[] data, int width, int height) {
+        StringBuilder sb = new StringBuilder();
+
+        for (int y = 0; y < height; y++) {
+            for (int x = 0; x < width; x++) {
+                int pixelIndex = y * width + x;
+                int pixelValue = (data[pixelIndex] & 0xff) > 128 ? 1 : 0;
+                sb.append(pixelValue);
+            }
+        }
+        return sb.toString();
+    }
 }
