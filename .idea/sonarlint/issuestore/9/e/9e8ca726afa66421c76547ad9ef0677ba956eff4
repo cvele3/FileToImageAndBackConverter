@@ -1,0 +1,12 @@
+
+C
+java:S5411""(Use a primitive boolean expression here.(É¥£‡ýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Çý±¤üÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(é¥›“
+7
+java:S5542"Use a secure padding scheme.(ý¯µÅùÿÿÿÿ
+‚
+java:S1130M"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¿ÆÖ­
+<
+java:S1905X"&Remove this unnecessary cast to "int".(©¤õÝ
