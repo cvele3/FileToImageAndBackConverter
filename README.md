@@ -1,4 +1,6 @@
 # FileToImageAndBackConverter
 
 
-repo used for file to video and back engine
+Za download ffmpega - https://phoenixnap.com/kb/ffmpeg-windows
+
+
